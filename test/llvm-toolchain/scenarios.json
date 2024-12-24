@@ -1,0 +1,10 @@
+{
+    "llvm-13": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "llvm-toolchain": {
+                "llvm_version": "13"
+            }
+        }
+    }
+}

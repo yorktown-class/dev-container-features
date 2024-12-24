@@ -1,0 +1,25 @@
+{
+    "name": "llvm-toolchain",
+    "id": "llvm-toolchain",
+    "version": "1.0.0",
+    "description": "A hello world feature",
+    "options": {
+        "llvm_version": {
+            "type": "string",
+            "proposals": [
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19"
+            ],
+            "default": "19",
+            "description": "select LLVM toolchain version"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
