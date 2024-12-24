@@ -2,7 +2,7 @@
     "name": "llvm-toolchain",
     "id": "llvm-toolchain",
     "version": "1.0.0",
-    "description": "A hello world feature",
+    "description": "import llvm toolchain",
     "options": {
         "llvm_version": {
             "type": "string",
