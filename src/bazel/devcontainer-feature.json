@@ -1,0 +1,36 @@
+{
+	"name": "Bazel",
+	"id": "bazel",
+	"version": "1.0.0",
+	"description": "Bazel feature",
+	"documentationURL": "https://github.com/devcontainers-community/features-bazel",
+	"options": {
+		"bazelisk_version": {
+			"type": "string",
+			"proposals": [
+				"v1.18.0",
+				"latest"
+			],
+			"default": "latest",
+			"description": "Version of Bazelisk to manage Bazel versions"
+		},
+		"buildifier_version": {
+			"type": "string",
+			"proposals": [
+				"v5.1.0",
+				"v6.3.2",
+				"latest"
+			],
+			"default": "latest",
+			"description": "Version of Buildifier to lint BUILD files"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"bazelbuild.vscode-bazel"
+			]
+		}
+	},
+	"onCreateCommand": "/tmp/on-create-command.sh"
+}
