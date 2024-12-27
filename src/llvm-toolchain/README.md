@@ -17,6 +17,12 @@ import llvm toolchain
 |-----|-----|-----|-----|
 | llvm_version | select LLVM toolchain version | string | 19 |
 
+## Customizations
+
+### VS Code Extensions
+
+- `llvm-vs-code-extensions.vscode-clangd`
+
 
 
 ---
